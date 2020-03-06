@@ -49,7 +49,7 @@ ZSH_CUSTOM=$HOME/.oh-my-zsh-custom
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git history-substring-search zsh-better-npm-completion osx sublime z )
 
-# User configuration
+# User configurations
 
 export PATH="$HOME/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/sbin:$HOME/.vim/plugged"
 # export MANPATH="/usr/local/man:$MANPATH"
