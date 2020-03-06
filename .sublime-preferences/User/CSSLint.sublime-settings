@@ -1,4 +1,0 @@
-{
-  // CSSLint rules you wish to ignore. Must be an array. Leave blank to include all default rules.
-  "ignore": ["import"]
-}

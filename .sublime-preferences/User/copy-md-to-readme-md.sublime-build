@@ -1,4 +1,0 @@
-{
-  "cmd": ["/bin/cp", "$file_name", "Readme.md"],
-  "selector": "text.html.markdown"
-}
