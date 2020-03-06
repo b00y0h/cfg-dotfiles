@@ -1,0 +1,8 @@
+.cfg
+.sublime-preferences/User/Package Control.sublime-settings
+.sublime-preferences/User/Package Control.last-run
+.vim/autoload/*
+.vim/plugged/*
+nohup.out
+*/.DS_Store
+.oh-my-zsh-custom/proxies.zsh

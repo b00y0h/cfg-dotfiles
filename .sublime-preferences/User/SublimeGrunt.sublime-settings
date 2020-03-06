@@ -1,0 +1,5 @@
+{
+    "exec_args": {
+        "path": "/usr/local/bin/grunt:/bin:/usr/bin:/usr/local/bin"
+    }
+}
