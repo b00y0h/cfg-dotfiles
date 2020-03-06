@@ -626,19 +626,6 @@ EOD
 # Install the Solarized Dark theme for iTerm
 # open "${HOME}/init/Solarized Dark.itermcolors"
 
-# Don't display the annoying prompt when quitting iTerm
-echo "Don't display the annoying prompt when quitting iTerm"
-defaults write com.googlecode.iterm2 PromptOnQuit -bool false
-
-# load profile from dotfiles
-<<<<<<< HEAD
-defaults write com.googlecode.iterm2.plist PrefsCustomFolder -string "${HOME}/iterm-profile"
-=======
-echo "load profile from dotfiles"
-defaults write com.googlecode.iterm2.plist PrefsCustomFolder -string "~/.iterm-profile"
->>>>>>> de14971c36eb3680c53fb99cb771c0afcc930f38
-defaults write com.googlecode.iterm2.plist LoadPrefsFromCustomFolder -bool true
-
 ###############################################################################
 # Time Machine                                                                #
 ###############################################################################

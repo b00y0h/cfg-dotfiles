@@ -22,17 +22,17 @@ brew install shpotify
 brew install tmux
 brew install youtube-dl
 brew install libvpx
-brew install ffmpeg --with-tools --with-freetype --with-libass --with-libvorbis --with-libvpx --with-x265
 brew install rmtrash
 brew install tree
 
 # z hopping around folders
 brew install z
 
-# brew install vim --with-override-system-vi
-
-# brew install git
+brew tap homebrew/cask-fonts
+brew cask install font-hack-nerd-font
+brew cask install visual-studio-code
 
 # Remove outdated versions from the cellar
 brew cleanup
+
 fi
