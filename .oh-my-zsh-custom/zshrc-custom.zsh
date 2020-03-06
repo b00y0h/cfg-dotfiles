@@ -11,7 +11,6 @@ CALENDAR_SYMBOL="\uf073"
 # dotfiles
 export HOMEBREW_CASK_OPTS="--appdir=~/Tools"
 
-source $HOME/.iterm2_shell_integration.zsh
 export NODE_PATH=$HOME/.nvm/lib/node_modules:/usr/local/lib/node_modules
 
 export GOPATH=$HOME/go

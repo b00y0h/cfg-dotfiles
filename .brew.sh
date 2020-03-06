@@ -25,12 +25,16 @@ brew install libvpx
 brew install rmtrash
 brew install tree
 
+# install stuff from mac app store
+brew install mas
+
 # z hopping around folders
 brew install z
 
 brew tap homebrew/cask-fonts
 brew cask install font-hack-nerd-font
 brew cask install visual-studio-code
+brew cask install hyper
 
 # Remove outdated versions from the cellar
 brew cleanup

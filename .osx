@@ -748,6 +748,13 @@ defaults write com.google.Chrome.canary AppleEnableMouseSwipeNavigateWithScrolls
 # Install Sublime Text settings
 # cp -r init/Preferences.sublime-settings ~/Library/Application\ Support/Sublime\ Text*/Packages/User/Preferences.sublime-settings 2> /dev/null
 
+# MAS must be installed first
+# https://github.com/mas-cli/mas
+# .brew.sh file should have installed it
+
+mas install 441258766 #magnet
+mas install 1081413713 #gifbrewery
+
 ###############################################################################
 # Kill affected applications                                                  #
 ###############################################################################
@@ -763,3 +770,10 @@ done
 killall -KILL SystemUIServer
 
 echo "Done. Note that some of these changes require a logout/restart to take effect."
+
+## Install apps that cannot be done from command line
+echo "Here are apps that cannot be installed from command line"
+echo "https://matthewpalmer.net/vanilla/"
+open https://matthewpalmer.net/vanilla/
+echo "https://matthewpalmer.net/rocket/"
+open https://matthewpalmer.net/rocket/
