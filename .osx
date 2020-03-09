@@ -102,7 +102,7 @@ sudo pmset -a sms 0
 ###############################################################################
 
 # Trackpad: enable tap to click for this user and for the login screen
-# defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Clicking -bool true
+defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Clicking -bool true
 # defaults -currentHost write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
 # defaults write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
 
@@ -752,8 +752,23 @@ defaults write com.google.Chrome.canary AppleEnableMouseSwipeNavigateWithScrolls
 # https://github.com/mas-cli/mas
 # .brew.sh file should have installed it
 
+###############################################################################
+# MenuBar                                                                #
+###############################################################################
+
+# Disable "Ask Siri"
+defaults write com.apple.assistant.support "Assistant Enabled" -bool false
+
+# Remove siri icon from status menu
+defaults write com.apple.Siri StatusMenuVisible -bool false
+
+###############################################################################
+# Install Apps                                                                #
+###############################################################################
+
+# brew install mas needs to be run (it's in .brew.sh)
 mas install 441258766 #magnet
-mas install 1081413713 #gifbrewery
+# mas install 1081413713 #gifbrewery
 
 ###############################################################################
 # Kill affected applications                                                  #
