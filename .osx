@@ -762,6 +762,9 @@ defaults write com.apple.assistant.support "Assistant Enabled" -bool false
 # Remove siri icon from status menu
 defaults write com.apple.Siri StatusMenuVisible -bool false
 
+# Show percentage for battery
+defaults write com.apple.menuextra.battery ShowPercent YES
+
 ###############################################################################
 # Install Apps                                                                #
 ###############################################################################
