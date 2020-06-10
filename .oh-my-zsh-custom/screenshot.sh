@@ -9,8 +9,12 @@ IFS=$'\n\t'
 input=${1:-}
 
 # check if installed
-hash convert 2>/dev/null || { echo >&2 "I require convert but it's not installed. Install imagemagick with 'brew install ImageMagick'  Aborting."; exit 1; }
-hash rmtrash 2>/dev/null || { echo >&2 "I require rmtrash but it's not installed. Install rmtrash with 'brew install rmtrash'  Aborting."; exit 1; }
+
+brew bundle --file=- <<-EOS
+brew "ImageMagick"
+brew "rmtrash"
+brew "ffmpeg"
+EOS
 
 
 # grab idle time in seconds

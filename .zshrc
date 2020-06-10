@@ -53,6 +53,12 @@ plugins=(git history-substring-search osx sublime z )
 
 export PATH="$HOME/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/sbin:$HOME/.vim/plugged"
 # export MANPATH="/usr/local/man:$MANPATH"
+# brew install ruby
+export PATH="/usr/local/opt/ruby/bin:$PATH"
+# pip
+export PATH="$HOME/Library/Python/2.7/bin:$PATH"
+# npm
+export PATH="$HOME/.npm-global/bin:$PATH"
 
 source $ZSH/oh-my-zsh.sh
 
