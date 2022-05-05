@@ -10,11 +10,11 @@ input=${1:-}
 
 # check if installed
 
-brew bundle --file=- <<-EOS
-brew "ImageMagick"
-brew "rmtrash"
-brew "ffmpeg"
-EOS
+# brew bundle --file=- <<-EOS
+# brew "ImageMagick"
+# brew "rmtrash"
+# brew "ffmpeg"
+# EOS
 
 
 # grab idle time in seconds

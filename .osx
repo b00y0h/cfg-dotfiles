@@ -766,11 +766,21 @@ defaults write com.apple.Siri StatusMenuVisible -bool false
 defaults write com.apple.menuextra.battery ShowPercent YES
 
 ###############################################################################
+# VS Code                                                                #
+###############################################################################
+defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false         # For VS Code
+defaults write com.microsoft.VSCodeInsiders ApplePressAndHoldEnabled -bool false # For VS Code Insider
+defaults write com.visualstudio.code.oss ApplePressAndHoldEnabled -bool false    # For VS Codium
+defaults delete -g ApplePressAndHoldEnabled                                      # If necessary, reset global default
+
+
+###############################################################################
 # Install Apps                                                                #
 ###############################################################################
 
 # brew install mas needs to be run (it's in .brew.sh)
 mas install 441258766 #magnet
+brew install --cask raycast
 # mas install 1081413713 #gifbrewery
 
 ###############################################################################

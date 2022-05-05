@@ -47,11 +47,11 @@ ZSH_CUSTOM=$HOME/.oh-my-zsh-custom
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git history-substring-search osx sublime z )
+plugins=(git history-substring-search macos z)
 
 # User configurations
 
-export PATH="$HOME/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/sbin:$HOME/.vim/plugged"
+export PATH="$PATH:$HOME/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/sbin:$HOME/.vim/plugged"
 # export MANPATH="/usr/local/man:$MANPATH"
 # brew install ruby
 export PATH="/usr/local/opt/ruby/bin:$PATH"
@@ -78,6 +78,8 @@ antigen bundle command-not-found
 antigen bundle zsh-users/zsh-syntax-highlighting
 antigen bundle zsh-users/zsh-completions
 
+# autocomplete plugins
+
 # Tell Antigen that you're done.
 # antigen apply
 
@@ -99,3 +101,27 @@ fi
 # -- Rbenv ---------------------------------------------------------------------
 # export PATH="$HOME/.rbenv/bin:$HOME/bin:/usr/local/bin:$PATH"
 # eval "$(rbenv init -)"
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+
+# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
+export PATH="$PATH:$HOME/.rvm/bin"
+export PATH="$HOME/.gem/ruby/2.7.0/bin:$PATH"
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/Users/bobbysmith/Downloads/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/bobbysmith/Downloads/google-cloud-sdk/path.zsh.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/Users/bobbysmith/Downloads/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/bobbysmith/Downloads/google-cloud-sdk/completion.zsh.inc'; fi
+
+# BEGIN SNIPPET: Platform.sh CLI configuration
+HOME=${HOME:-'/Users/bobbysmith'}
+export PATH="$HOME/"'.platformsh/bin':"$PATH"
+if [ -f "$HOME/"'.platformsh/shell-config.rc' ]; then . "$HOME/"'.platformsh/shell-config.rc'; fi # END SNIPPET
+
+# export netlify token for interacting with command line to netlify
+export NETLIFY_TOKEN=ntMMeVumGmmOMDhBL4M2Vm2GBG1YqdCKp6scYjs7hpM 
+
+export NVM_DIR=~/.nvm
+export GWPT_AUTH_TOKEN=ts6LKbmmTDUz8NHl
