@@ -9,6 +9,12 @@ https://www.atlassian.com/git/tutorials/dotfiles
 curl -Lks https://bitbucket.org/b00y0h/workspace/snippets/eqAoxg | /bin/bash
 ```
 
+## Installing apps and setting prefs
+```
+./.brew.sh
+./.osx
+```
+
 ## To maintain
 ```
 config status
@@ -21,5 +27,3 @@ config push
 
 ## Resources
 [Atlassian: How to store dotfiles](https://developer.atlassian.com/blog/2016/02/best-way-to-store-dotfiles-git-bare-repo/)
-[Syncing sublime package control](https://packagecontrol.io/docs/syncing)
-

@@ -1,3 +1,5 @@
+# Fig pre block. Keep at the top of this file.
+[[ -f "$HOME/.fig/shell/zshrc.pre.zsh" ]] && builtin source "$HOME/.fig/shell/zshrc.pre.zsh"
 export TERM="xterm-256color"
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
@@ -6,7 +8,7 @@ export ZSH=$HOME/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="powerlevel9k/powerlevel9k"
+# ZSH_THEME="powerlevel9k/powerlevel9k"
 # bureau, pmcgee, pure
 
 # Uncomment the following line to use case-sensitive completion.
@@ -51,12 +53,13 @@ plugins=(git history-substring-search macos z)
 
 # User configurations
 
-export PATH="$PATH:$HOME/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/sbin:$HOME/.vim/plugged"
+export PATH="$HOME/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/sbin:$HOME/.vim/plugged:$PATH:$HOME/.local/bin:$HOME/.fig/bin"
+export PATH="/usr/local/opt/python/libexec/bin:$PATH"
 # export MANPATH="/usr/local/man:$MANPATH"
 # brew install ruby
 export PATH="/usr/local/opt/ruby/bin:$PATH"
 # pip
-export PATH="$HOME/Library/Python/2.7/bin:$PATH"
+# export PATH="$HOME/Library/Python/2.7/bin:$PATH"
 # npm
 export PATH="$HOME/.npm-global/bin:$PATH"
 
@@ -77,6 +80,7 @@ antigen bundle command-not-found
 # Syntax highlighting bundle.
 antigen bundle zsh-users/zsh-syntax-highlighting
 antigen bundle zsh-users/zsh-completions
+antigen bundle zsh-users/zsh-autosuggestions
 
 # autocomplete plugins
 
@@ -123,5 +127,13 @@ if [ -f "$HOME/"'.platformsh/shell-config.rc' ]; then . "$HOME/"'.platformsh/she
 # export netlify token for interacting with command line to netlify
 export NETLIFY_TOKEN=ntMMeVumGmmOMDhBL4M2Vm2GBG1YqdCKp6scYjs7hpM 
 
-export NVM_DIR=~/.nvm
 export GWPT_AUTH_TOKEN=ts6LKbmmTDUz8NHl
+
+eval "$(starship init zsh)"
+
+if command -v pyenv 1>/dev/null 2>&1; then
+  eval "$(pyenv init -)"
+fi
+
+# Fig post block. Keep at the bottom of this file.
+[[ -f "$HOME/.fig/shell/zshrc.post.zsh" ]] && builtin source "$HOME/.fig/shell/zshrc.post.zsh"

@@ -22,7 +22,7 @@ brew install shpotify
 brew install tmux
 brew install youtube-dl
 brew install libvpx
-brew install rmtrash
+brew install trash
 brew install tree
 
 # install stuff from mac app store
@@ -32,9 +32,10 @@ brew install mas
 brew install z
 
 brew tap homebrew/cask-fonts
-brew cask install font-hack-nerd-font
-brew cask install visual-studio-code
-brew cask install hyper
+brew install --cask font-hack-nerd-font
+brew install --cask visual-studio-code
+brew install --cask hyper
+brew install --cask brave-browser
 
 # Remove outdated versions from the cellar
 brew cleanup

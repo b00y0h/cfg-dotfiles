@@ -1,9 +1,10 @@
-// -- hyper-stylesheet-hash:128569e017c92721d52dee4a814c9cf1 --
+// -- hyper-stylesheet-hash:d0e6223a61c9405f87c8ab655a2396b9 --
 module.exports = {
   config: {
     // choose either `'stable'` for receiving highly polished,
     // or `'canary'` for less polished but more frequent updates
-    updateChannel: "canary",
+    updateChannel: 'stable',
+    // webGLRenderer: false,
 
     // default font size in pixels for all tabs
     fontSize: 16,
@@ -12,44 +13,44 @@ module.exports = {
     fontFamily: '"Hack Nerd Font", monospace',
 
     // `'BEAM'` for |, `'UNDERLINE'` for _, `'BLOCK'` for █
-    cursorShape: "BLOCK",
+    cursorShape: 'BLOCK',
 
     // custom padding (CSS format, i.e.: `top right bottom left`)
-    padding: "0px",
+    padding: '0px',
 
-    shell: "/bin/zsh",
+    // shell: '/bin/zsh',
 
-    activeTab: "🚀",
+    activeTab: '',
 
     // need padding for hyperline
-    padding: "0 0 1.8rem 0",
+    padding: '0 0 2rem 0',
 
     wickedBorder: true,
     // change the color here
-    wickedBorderColor: "#ffc600",
+    wickedBorderColor: '#ff0000',
     lineHeight: 1.3,
     hyperTabs: {
-      trafficButtons: true,
+      // trafficButtons: true,
       border: true,
       tabIcons: false,
       tabIconsColored: true,
-      activityColor: "salmon",
+      activityColor: 'salmon',
     },
     hyperline: {
-      plugins: ["hostname", "ip", "cpu", "memory", "battery"],
-      padding: ".5rem .5rem 1.8rem .5rem",
+      plugins: ['hostname', 'ip', 'cpu', 'memory', 'battery'],
+      padding: '.5rem .5rem 1.8rem .5rem',
     },
   },
 
   plugins: [
-    "hyperterm-cobalt2-theme",
-    "hyper-search",
-    "hyper-tabs-enhanced",
-    "hyperline",
-    "hypercwd",
-    "hyper-font-ligatures",
-    "hyper-active-tab",
-    "hyper-stylesheet",
+    'hyperline',
+    'hypercwd',
+    'hyper-font-ligatures',
+    'hyper-active-tab',
+    'hyper-stylesheet',
+    // "hyperterm-cobalt2-theme",
+    'hyper-tabs-enhanced',
+    'hyper-material-theme',
   ],
 
   // in development, you can create a directory under

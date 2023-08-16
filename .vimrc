@@ -9,12 +9,12 @@ call plug#begin('~/.vim/plugged')
  Plug 'morhetz/gruvbox'
  Plug 'mxw/vim-jsx'
  Plug 'scrooloose/syntastic'
- Plug 'tpope/vim-fugitive'
  Plug 'tpope/vim-surround'
  Plug 'vim-airline/vim-airline'
  Plug 'pangloss/vim-javascript'
  Plug 'terryma/vim-expand-region'
  Plug 'airblade/vim-gitgutter'
+ Plug 'tpope/vim-fugitive'
 call plug#end()
 
 " colorscheme gruvbox

@@ -4,6 +4,7 @@
 # brainstormr=/Users/robbyrussell/Projects/development/planetargon/brainstormr
 #
 alias ys='yarn start'
+alias vim=nvim
 
 alias gstat='git status -s'
 # ignore *-lock files on git diff
@@ -30,20 +31,11 @@ alias pi='echo "scale=1000;4*a(1)" | BC_LINE_LENGTH=1004 bc -l'
 
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 
-# fix frozen facetime camera
-alias fixfrozencamera='sudo killall VDCAssistant'
-
-alias airport='/System/Library/PrivateFrameworks/Apple80211.framework/Versions/A/Resources/airport'
-
-# implement python3
-alias python="/usr/local/bin/python3"
-alias pip="/usr/local/bin/pip3"
-
 function server() {
     local port
     port="${1:-8000}"
     open "http://localhost:${port}/"
-    python -m SimpleHTTPServer "$port"
+    python3 -m http.server "$port"
 }
 
 function ffmpeg-sidebyside() {
@@ -81,21 +73,21 @@ compresspdf() {
 # yell out BETH!
 play-beth() {
     osascript -e 'get volume settings'
-    SwitchAudioSource -s 'Display Audio'
+    SwitchAudioSource -s 'MacBook Pro Speakers'
     osascript -e "set Volume 10"
     afplay $HOME/Music/beth.m4a
     osascript -e "set Volume 3"
-    SwitchAudioSource -s 'Built-in Output'
+    # SwitchAudioSource -s 'Built-in Output'
     osascript -e 'get volume settings'
 }
 
 play-airhorn() {
     osascript -e 'get volume settings'
-    SwitchAudioSource -s 'Display Audio'
+    SwitchAudioSource -s 'MacBook Pro Speakers'
     osascript -e "set Volume 5"
     afplay $HOME/Music/airhorn.m4a
     osascript -e "set Volume 2"
-    SwitchAudioSource -s 'Built-in Output'
+    # SwitchAudioSource -s 'Built-in Output'
     osascript -e 'get volume settings'
 }
 
