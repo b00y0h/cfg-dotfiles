@@ -1,10 +1,12 @@
 ##Config for system
 Maintain a consistent way to keep dotfiles across systems
 
+## Reference
+https://www.atlassian.com/git/tutorials/dotfiles
 
 ## To get started
 ```
-curl -Lks http://bit.do/cfg-custom | /bin/bash
+curl -Lks https://bitbucket.org/b00y0h/workspace/snippets/eqAoxg | /bin/bash
 ```
 
 ## To maintain
