@@ -21,11 +21,15 @@ $
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1691766684,,"wq"
+|2,0,1705698595,,"wq"
+:qa
+|2,0,1697748635,,"qa"
 :q
-|2,0,1691531992,,"q"
+|2,0,1697746971,,"q"
 :w
-|2,0,1691531989,,"w"
+|2,0,1697746968,,"w"
+:!q
+|2,0,1697677682,,"!q"
 :q!
 |2,0,1674140671,,"q!"
 :Git push --set-upstream origin gitlab-pipeline
@@ -178,271 +182,357 @@ $
 	drupal.docker.localhost
 	
 |3,0,0,0,2,0,1680658597,"drupal.docker.localhost",""
-""1	LINE	0
-	# https://wodby.com/docs/1.0/stacks/drupal/local/#domains
-|3,1,1,1,1,0,1680662810,"# https://wodby.com/docs/1.0/stacks/drupal/local/#domains"
+"1	LINE	0
+	u
+|3,0,1,1,1,0,1697746714,"u"
 "2	LINE	0
+	# https://wodby.com/docs/1.0/stacks/drupal/local/#domains
+|3,0,2,1,1,0,1697746714,"# https://wodby.com/docs/1.0/stacks/drupal/local/#domains"
+"3	LINE	0
+	
+|3,0,3,1,1,0,1697746713,""
+"4	LINE	0
+	# https://wodby.com/docs/1.0/stacks/drupal/local/#domains
+|3,0,4,1,1,0,1680662810,"# https://wodby.com/docs/1.0/stacks/drupal/local/#domains"
+"5	LINE	0
 	127.0.0.1 drupal.docker.localhost
 	::1 drupal.docker.localhost
 	127.0.0.1 nodejs.docker.localhost
 	127.0.0.1 front.docker.localhost
-|3,0,2,1,4,0,1680662809,"127.0.0.1 drupal.docker.localhost","::1 drupal.docker.localhost","127.0.0.1 nodejs.docker.localhost","127.0.0.1 front.docker.localhost"
-"3	LINE	0
+|3,0,5,1,4,0,1680662809,"127.0.0.1 drupal.docker.localhost","::1 drupal.docker.localhost","127.0.0.1 nodejs.docker.localhost","127.0.0.1 front.docker.localhost"
+"6	LINE	0
 	
-|3,0,3,1,1,0,1680658603,""
-"4	LINE	0
+|3,0,6,1,1,0,1680658603,""
+"7	LINE	0
 	# End of section
-|3,0,4,1,1,0,1680658367,"# End of section"
-"5	LINE	0
+|3,0,7,1,1,0,1680658367,"# End of section"
+"8	LINE	0
 	# To allow the same kube context to work on the host and the container:
 	127.0.0.1 kubernetes.docker.internal
-|3,0,5,1,2,0,1680658366,"# To allow the same kube context to work on the host and the container:","127.0.0.1 kubernetes.docker.internal"
-"6	LINE	0
-	  console.log("🚀 ~ file: BlockFacultyCard.js:16 ~ BlockFaculty ~ props:", props)
-|3,0,6,1,1,0,1679701168,"  console.log(\"🚀 ~ file: BlockFacultyCard.js:16 ~ BlockFaculty ~ props:\", props)"
-"7	LINE	0
-	    console.log('image: ', image)
-|3,0,7,1,1,0,1679701090,"    console.log('image: ', image)"
-"8	LINE	0
-	  console.log("🚀 ~ file: Image.js:33 ~ DisplayImage ~ imageSize:", imageSize)
-|3,0,8,1,1,0,1679701042,"  console.log(\"🚀 ~ file: Image.js:33 ~ DisplayImage ~ imageSize:\", imageSize)"
+|3,0,8,1,2,0,1680658366,"# To allow the same kube context to work on the host and the container:","127.0.0.1 kubernetes.docker.internal"
 "9	LINE	0
-	registry=https://npm.pkg.github.com/
-|3,0,9,1,1,0,1675981820,"registry=https://npm.pkg.github.com/"
-"-	CHAR	0
-	node
-|3,0,36,0,1,0,1680658539,"node"
+	  console.log("🚀 ~ file: BlockFacultyCard.js:16 ~ BlockFaculty ~ props:", props)
+|3,0,9,1,1,0,1679701168,"  console.log(\"🚀 ~ file: BlockFacultyCard.js:16 ~ BlockFaculty ~ props:\", props)"
+""-	CHAR	0
+	u
+|3,1,36,0,1,0,1697746718,"u"
 
 # File marks:
 'M  1125  18  ~/source/WebDev/nsu-iwc-layouts/package-lock.json
 |4,77,1125,18,1599765137,"~/source/WebDev/nsu-iwc-layouts/package-lock.json"
-'0  1  0  ~/source/nextjs/wilmington-nextjs/.git/MERGE_MSG
-|4,48,1,0,1691766684,"~/source/nextjs/wilmington-nextjs/.git/MERGE_MSG"
-'1  1  0  ~/source/contentful/morgan-state/.git/COMMIT_EDITMSG
-|4,49,1,0,1691531992,"~/source/contentful/morgan-state/.git/COMMIT_EDITMSG"
-'2  1  0  ~/source/nextjs/wilmington-nextjs/.git/MERGE_MSG
-|4,50,1,0,1690574836,"~/source/nextjs/wilmington-nextjs/.git/MERGE_MSG"
-'3  1  0  ~/source/nextjs/wilmington-nextjs/.git/COMMIT_EDITMSG
-|4,51,1,0,1689735368,"~/source/nextjs/wilmington-nextjs/.git/COMMIT_EDITMSG"
-'4  1  20  ~/source/nextjs/wilmington-nextjs/.git/COMMIT_EDITMSG
-|4,52,1,20,1689663892,"~/source/nextjs/wilmington-nextjs/.git/COMMIT_EDITMSG"
-'5  1  20  ~/source/nextjs/wilmington-nextjs/.git/COMMIT_EDITMSG
-|4,53,1,20,1689650329,"~/source/nextjs/wilmington-nextjs/.git/COMMIT_EDITMSG"
-'6  1  20  ~/source/nextjs/wilmington-nextjs/.git/COMMIT_EDITMSG
-|4,54,1,20,1689650329,"~/source/nextjs/wilmington-nextjs/.git/COMMIT_EDITMSG"
-'7  1  0  ~/source/nextjs/wilmington-nextjs/.git/MERGE_MSG
-|4,55,1,0,1689626142,"~/source/nextjs/wilmington-nextjs/.git/MERGE_MSG"
-'8  1  0  ~/source/nextjs/wilmington-nextjs/.git/MERGE_MSG
-|4,56,1,0,1689626142,"~/source/nextjs/wilmington-nextjs/.git/MERGE_MSG"
-'9  1  0  ~/source/nextjs/wilmington-nextjs/.git/MERGE_MSG
-|4,57,1,0,1689623661,"~/source/nextjs/wilmington-nextjs/.git/MERGE_MSG"
+'0  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/MERGE_MSG
+|4,48,1,0,1705698595,"~/source/payloadcms/appily/advance.appily.com/.git/MERGE_MSG"
+'1  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/MERGE_MSG
+|4,49,1,0,1705505585,"~/source/payloadcms/appily/advance.appily.com/.git/MERGE_MSG"
+'2  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/MERGE_MSG
+|4,50,1,0,1705505574,"~/source/payloadcms/appily/advance.appily.com/.git/MERGE_MSG"
+'3  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/MERGE_MSG
+|4,51,1,0,1705505574,"~/source/payloadcms/appily/advance.appily.com/.git/MERGE_MSG"
+'4  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/MERGE_MSG
+|4,52,1,0,1704745182,"~/source/payloadcms/appily/advance.appily.com/.git/MERGE_MSG"
+'5  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/MERGE_MSG
+|4,53,1,0,1704745182,"~/source/payloadcms/appily/advance.appily.com/.git/MERGE_MSG"
+'6  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/MERGE_MSG
+|4,54,1,0,1704745182,"~/source/payloadcms/appily/advance.appily.com/.git/MERGE_MSG"
+'7  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/MERGE_MSG
+|4,55,1,0,1704745182,"~/source/payloadcms/appily/advance.appily.com/.git/MERGE_MSG"
+'8  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/MERGE_MSG
+|4,56,1,0,1704739150,"~/source/payloadcms/appily/advance.appily.com/.git/MERGE_MSG"
+'9  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/MERGE_MSG
+|4,57,1,0,1704739150,"~/source/payloadcms/appily/advance.appily.com/.git/MERGE_MSG"
 
 # Jumplist (newest first):
--'  1  0  ~/source/nextjs/wilmington-nextjs/.git/MERGE_MSG
-|4,39,1,0,1691766684,"~/source/nextjs/wilmington-nextjs/.git/MERGE_MSG"
--'  1  0  ~/source/contentful/morgan-state/.git/COMMIT_EDITMSG
-|4,39,1,0,1691531992,"~/source/contentful/morgan-state/.git/COMMIT_EDITMSG"
--'  1  0  ~/source/contentful/morgan-state/.git/COMMIT_EDITMSG
-|4,39,1,0,1691531992,"~/source/contentful/morgan-state/.git/COMMIT_EDITMSG"
--'  1  0  ~/source/nextjs/wilmington-nextjs/.git/MERGE_MSG
-|4,39,1,0,1690574836,"~/source/nextjs/wilmington-nextjs/.git/MERGE_MSG"
--'  1  0  ~/source/nextjs/wilmington-nextjs/.git/MERGE_MSG
-|4,39,1,0,1690574836,"~/source/nextjs/wilmington-nextjs/.git/MERGE_MSG"
--'  1  0  ~/source/nextjs/wilmington-nextjs/.git/COMMIT_EDITMSG
-|4,39,1,0,1689735368,"~/source/nextjs/wilmington-nextjs/.git/COMMIT_EDITMSG"
--'  1  0  ~/source/nextjs/wilmington-nextjs/.git/COMMIT_EDITMSG
-|4,39,1,0,1689735368,"~/source/nextjs/wilmington-nextjs/.git/COMMIT_EDITMSG"
--'  1  0  ~/source/nextjs/wilmington-nextjs/.git/COMMIT_EDITMSG
-|4,39,1,0,1689735368,"~/source/nextjs/wilmington-nextjs/.git/COMMIT_EDITMSG"
--'  1  0  ~/source/nextjs/wilmington-nextjs/.git/COMMIT_EDITMSG
-|4,39,1,0,1689735368,"~/source/nextjs/wilmington-nextjs/.git/COMMIT_EDITMSG"
--'  1  0  ~/source/nextjs/wilmington-nextjs/.git/COMMIT_EDITMSG
-|4,39,1,0,1689735368,"~/source/nextjs/wilmington-nextjs/.git/COMMIT_EDITMSG"
--'  1  0  ~/source/nextjs/wilmington-nextjs/.git/COMMIT_EDITMSG
-|4,39,1,0,1689735368,"~/source/nextjs/wilmington-nextjs/.git/COMMIT_EDITMSG"
--'  1  0  ~/source/nextjs/wilmington-nextjs/.git/COMMIT_EDITMSG
-|4,39,1,0,1689735368,"~/source/nextjs/wilmington-nextjs/.git/COMMIT_EDITMSG"
--'  1  0  ~/source/nextjs/wilmington-nextjs/.git/COMMIT_EDITMSG
-|4,39,1,0,1689735368,"~/source/nextjs/wilmington-nextjs/.git/COMMIT_EDITMSG"
--'  1  20  ~/source/nextjs/wilmington-nextjs/.git/COMMIT_EDITMSG
-|4,39,1,20,1689663892,"~/source/nextjs/wilmington-nextjs/.git/COMMIT_EDITMSG"
--'  1  20  ~/source/nextjs/wilmington-nextjs/.git/COMMIT_EDITMSG
-|4,39,1,20,1689663892,"~/source/nextjs/wilmington-nextjs/.git/COMMIT_EDITMSG"
--'  1  20  ~/source/nextjs/wilmington-nextjs/.git/COMMIT_EDITMSG
-|4,39,1,20,1689663892,"~/source/nextjs/wilmington-nextjs/.git/COMMIT_EDITMSG"
--'  1  20  ~/source/nextjs/wilmington-nextjs/.git/COMMIT_EDITMSG
-|4,39,1,20,1689663892,"~/source/nextjs/wilmington-nextjs/.git/COMMIT_EDITMSG"
--'  1  20  ~/source/nextjs/wilmington-nextjs/.git/COMMIT_EDITMSG
-|4,39,1,20,1689663892,"~/source/nextjs/wilmington-nextjs/.git/COMMIT_EDITMSG"
--'  1  20  ~/source/nextjs/wilmington-nextjs/.git/COMMIT_EDITMSG
-|4,39,1,20,1689663892,"~/source/nextjs/wilmington-nextjs/.git/COMMIT_EDITMSG"
--'  1  20  ~/source/nextjs/wilmington-nextjs/.git/COMMIT_EDITMSG
-|4,39,1,20,1689663892,"~/source/nextjs/wilmington-nextjs/.git/COMMIT_EDITMSG"
--'  1  20  ~/source/nextjs/wilmington-nextjs/.git/COMMIT_EDITMSG
-|4,39,1,20,1689663892,"~/source/nextjs/wilmington-nextjs/.git/COMMIT_EDITMSG"
--'  1  20  ~/source/nextjs/wilmington-nextjs/.git/COMMIT_EDITMSG
-|4,39,1,20,1689650329,"~/source/nextjs/wilmington-nextjs/.git/COMMIT_EDITMSG"
--'  1  20  ~/source/nextjs/wilmington-nextjs/.git/COMMIT_EDITMSG
-|4,39,1,20,1689650329,"~/source/nextjs/wilmington-nextjs/.git/COMMIT_EDITMSG"
--'  1  20  ~/source/nextjs/wilmington-nextjs/.git/COMMIT_EDITMSG
-|4,39,1,20,1689650329,"~/source/nextjs/wilmington-nextjs/.git/COMMIT_EDITMSG"
--'  1  20  ~/source/nextjs/wilmington-nextjs/.git/COMMIT_EDITMSG
-|4,39,1,20,1689650329,"~/source/nextjs/wilmington-nextjs/.git/COMMIT_EDITMSG"
--'  1  20  ~/source/nextjs/wilmington-nextjs/.git/COMMIT_EDITMSG
-|4,39,1,20,1689650329,"~/source/nextjs/wilmington-nextjs/.git/COMMIT_EDITMSG"
--'  1  20  ~/source/nextjs/wilmington-nextjs/.git/COMMIT_EDITMSG
-|4,39,1,20,1689650329,"~/source/nextjs/wilmington-nextjs/.git/COMMIT_EDITMSG"
--'  1  20  ~/source/nextjs/wilmington-nextjs/.git/COMMIT_EDITMSG
-|4,39,1,20,1689650329,"~/source/nextjs/wilmington-nextjs/.git/COMMIT_EDITMSG"
--'  1  20  ~/source/nextjs/wilmington-nextjs/.git/COMMIT_EDITMSG
-|4,39,1,20,1689650329,"~/source/nextjs/wilmington-nextjs/.git/COMMIT_EDITMSG"
--'  1  0  ~/source/nextjs/wilmington-nextjs/.git/MERGE_MSG
-|4,39,1,0,1689626142,"~/source/nextjs/wilmington-nextjs/.git/MERGE_MSG"
--'  1  0  ~/source/nextjs/wilmington-nextjs/.git/MERGE_MSG
-|4,39,1,0,1689626142,"~/source/nextjs/wilmington-nextjs/.git/MERGE_MSG"
--'  1  0  ~/source/nextjs/wilmington-nextjs/.git/MERGE_MSG
-|4,39,1,0,1689626142,"~/source/nextjs/wilmington-nextjs/.git/MERGE_MSG"
--'  1  0  ~/source/nextjs/wilmington-nextjs/.git/MERGE_MSG
-|4,39,1,0,1689626142,"~/source/nextjs/wilmington-nextjs/.git/MERGE_MSG"
--'  1  0  ~/source/nextjs/wilmington-nextjs/.git/MERGE_MSG
-|4,39,1,0,1689626142,"~/source/nextjs/wilmington-nextjs/.git/MERGE_MSG"
--'  1  0  ~/source/nextjs/wilmington-nextjs/.git/MERGE_MSG
-|4,39,1,0,1689626142,"~/source/nextjs/wilmington-nextjs/.git/MERGE_MSG"
--'  1  0  ~/source/nextjs/wilmington-nextjs/.git/MERGE_MSG
-|4,39,1,0,1689626142,"~/source/nextjs/wilmington-nextjs/.git/MERGE_MSG"
--'  1  0  ~/source/nextjs/wilmington-nextjs/.git/MERGE_MSG
-|4,39,1,0,1689626142,"~/source/nextjs/wilmington-nextjs/.git/MERGE_MSG"
--'  1  0  ~/source/nextjs/wilmington-nextjs/.git/MERGE_MSG
-|4,39,1,0,1689626142,"~/source/nextjs/wilmington-nextjs/.git/MERGE_MSG"
--'  1  0  ~/source/nextjs/wilmington-nextjs/.git/MERGE_MSG
-|4,39,1,0,1689626142,"~/source/nextjs/wilmington-nextjs/.git/MERGE_MSG"
--'  1  0  ~/source/nextjs/wilmington-nextjs/.git/MERGE_MSG
-|4,39,1,0,1689626142,"~/source/nextjs/wilmington-nextjs/.git/MERGE_MSG"
--'  1  0  ~/source/nextjs/wilmington-nextjs/.git/MERGE_MSG
-|4,39,1,0,1689626142,"~/source/nextjs/wilmington-nextjs/.git/MERGE_MSG"
--'  1  0  ~/source/nextjs/wilmington-nextjs/.git/MERGE_MSG
-|4,39,1,0,1689626142,"~/source/nextjs/wilmington-nextjs/.git/MERGE_MSG"
--'  1  0  ~/source/nextjs/wilmington-nextjs/.git/MERGE_MSG
-|4,39,1,0,1689626142,"~/source/nextjs/wilmington-nextjs/.git/MERGE_MSG"
--'  1  0  ~/source/nextjs/wilmington-nextjs/.git/MERGE_MSG
-|4,39,1,0,1689626142,"~/source/nextjs/wilmington-nextjs/.git/MERGE_MSG"
--'  1  0  ~/source/nextjs/wilmington-nextjs/.git/MERGE_MSG
-|4,39,1,0,1689626142,"~/source/nextjs/wilmington-nextjs/.git/MERGE_MSG"
--'  1  0  ~/source/nextjs/wilmington-nextjs/.git/MERGE_MSG
-|4,39,1,0,1689623661,"~/source/nextjs/wilmington-nextjs/.git/MERGE_MSG"
--'  1  0  ~/source/nextjs/wilmington-nextjs/.git/MERGE_MSG
-|4,39,1,0,1689623661,"~/source/nextjs/wilmington-nextjs/.git/MERGE_MSG"
--'  1  0  ~/source/nextjs/wilmington-nextjs/.git/MERGE_MSG
-|4,39,1,0,1689623661,"~/source/nextjs/wilmington-nextjs/.git/MERGE_MSG"
--'  1  0  ~/source/nextjs/wilmington-nextjs/.git/MERGE_MSG
-|4,39,1,0,1689623661,"~/source/nextjs/wilmington-nextjs/.git/MERGE_MSG"
--'  1  0  ~/source/nextjs/wilmington-nextjs/.git/MERGE_MSG
-|4,39,1,0,1689623661,"~/source/nextjs/wilmington-nextjs/.git/MERGE_MSG"
--'  1  0  ~/source/nextjs/wilmington-nextjs/.git/MERGE_MSG
-|4,39,1,0,1689623661,"~/source/nextjs/wilmington-nextjs/.git/MERGE_MSG"
--'  1  0  ~/source/nextjs/wilmington-nextjs/.git/MERGE_MSG
-|4,39,1,0,1689623661,"~/source/nextjs/wilmington-nextjs/.git/MERGE_MSG"
--'  1  0  ~/source/nextjs/wilmington-nextjs/.git/MERGE_MSG
-|4,39,1,0,1689623661,"~/source/nextjs/wilmington-nextjs/.git/MERGE_MSG"
--'  1  0  ~/source/nextjs/wilmington-nextjs/.git/MERGE_MSG
-|4,39,1,0,1689623661,"~/source/nextjs/wilmington-nextjs/.git/MERGE_MSG"
--'  1  0  ~/source/nextjs/wilmington-nextjs/.git/MERGE_MSG
-|4,39,1,0,1689623661,"~/source/nextjs/wilmington-nextjs/.git/MERGE_MSG"
--'  1  0  ~/source/nextjs/wilmington-nextjs/.git/MERGE_MSG
-|4,39,1,0,1689623661,"~/source/nextjs/wilmington-nextjs/.git/MERGE_MSG"
--'  1  0  ~/source/nextjs/wilmington-nextjs/.git/MERGE_MSG
-|4,39,1,0,1689623661,"~/source/nextjs/wilmington-nextjs/.git/MERGE_MSG"
--'  1  0  ~/source/nextjs/wilmington-nextjs/.git/MERGE_MSG
-|4,39,1,0,1689623661,"~/source/nextjs/wilmington-nextjs/.git/MERGE_MSG"
--'  1  0  ~/source/nextjs/wilmington-nextjs/.git/MERGE_MSG
-|4,39,1,0,1689623661,"~/source/nextjs/wilmington-nextjs/.git/MERGE_MSG"
--'  1  0  ~/source/nextjs/wilmington-nextjs/.git/MERGE_MSG
-|4,39,1,0,1689623661,"~/source/nextjs/wilmington-nextjs/.git/MERGE_MSG"
--'  1  0  ~/source/nextjs/wilmington-nextjs/.git/MERGE_MSG
-|4,39,1,0,1689623661,"~/source/nextjs/wilmington-nextjs/.git/MERGE_MSG"
--'  1  0  ~/source/nextjs/wilmington-nextjs/.git/COMMIT_EDITMSG
-|4,39,1,0,1689360737,"~/source/nextjs/wilmington-nextjs/.git/COMMIT_EDITMSG"
--'  1  0  ~/source/nextjs/wilmington-nextjs/.git/COMMIT_EDITMSG
-|4,39,1,0,1689360737,"~/source/nextjs/wilmington-nextjs/.git/COMMIT_EDITMSG"
--'  1  0  ~/source/nextjs/wilmington-nextjs/.git/COMMIT_EDITMSG
-|4,39,1,0,1689360737,"~/source/nextjs/wilmington-nextjs/.git/COMMIT_EDITMSG"
--'  1  0  ~/source/nextjs/wilmington-nextjs/.git/COMMIT_EDITMSG
-|4,39,1,0,1689360737,"~/source/nextjs/wilmington-nextjs/.git/COMMIT_EDITMSG"
--'  1  0  ~/source/nextjs/wilmington-nextjs/.git/COMMIT_EDITMSG
-|4,39,1,0,1689360737,"~/source/nextjs/wilmington-nextjs/.git/COMMIT_EDITMSG"
--'  1  0  ~/source/nextjs/wilmington-nextjs/.git/COMMIT_EDITMSG
-|4,39,1,0,1689360737,"~/source/nextjs/wilmington-nextjs/.git/COMMIT_EDITMSG"
--'  1  0  ~/source/nextjs/wilmington-nextjs/.git/COMMIT_EDITMSG
-|4,39,1,0,1689360737,"~/source/nextjs/wilmington-nextjs/.git/COMMIT_EDITMSG"
--'  1  0  ~/source/nextjs/wilmington-nextjs/.git/COMMIT_EDITMSG
-|4,39,1,0,1689360737,"~/source/nextjs/wilmington-nextjs/.git/COMMIT_EDITMSG"
--'  1  0  ~/source/nextjs/wilmington-nextjs/.git/COMMIT_EDITMSG
-|4,39,1,0,1689360737,"~/source/nextjs/wilmington-nextjs/.git/COMMIT_EDITMSG"
--'  1  0  ~/source/nextjs/wilmington-nextjs/.git/COMMIT_EDITMSG
-|4,39,1,0,1689360737,"~/source/nextjs/wilmington-nextjs/.git/COMMIT_EDITMSG"
--'  1  0  ~/source/nextjs/wilmington-nextjs/.git/COMMIT_EDITMSG
-|4,39,1,0,1689360737,"~/source/nextjs/wilmington-nextjs/.git/COMMIT_EDITMSG"
--'  1  0  ~/source/nextjs/wilmington-nextjs/.git/COMMIT_EDITMSG
-|4,39,1,0,1689360737,"~/source/nextjs/wilmington-nextjs/.git/COMMIT_EDITMSG"
--'  1  0  ~/source/nextjs/wilmington-nextjs/.git/COMMIT_EDITMSG
-|4,39,1,0,1689360737,"~/source/nextjs/wilmington-nextjs/.git/COMMIT_EDITMSG"
--'  1  0  ~/source/nextjs/wilmington-nextjs/.git/COMMIT_EDITMSG
-|4,39,1,0,1689360737,"~/source/nextjs/wilmington-nextjs/.git/COMMIT_EDITMSG"
--'  1  0  ~/source/nextjs/wilmington-nextjs/.git/COMMIT_EDITMSG
-|4,39,1,0,1689360737,"~/source/nextjs/wilmington-nextjs/.git/COMMIT_EDITMSG"
--'  1  0  ~/source/nextjs/wilmington-nextjs/.git/COMMIT_EDITMSG
-|4,39,1,0,1689360737,"~/source/nextjs/wilmington-nextjs/.git/COMMIT_EDITMSG"
--'  1  0  ~/source/nextjs/wilmington-nextjs/.git/COMMIT_EDITMSG
-|4,39,1,0,1689360737,"~/source/nextjs/wilmington-nextjs/.git/COMMIT_EDITMSG"
--'  1  0  ~/source/nextjs/wilmington-nextjs/.git/COMMIT_EDITMSG
-|4,39,1,0,1689360737,"~/source/nextjs/wilmington-nextjs/.git/COMMIT_EDITMSG"
--'  1  0  ~/source/nextjs/wilmington-nextjs/.git/COMMIT_EDITMSG
-|4,39,1,0,1689360737,"~/source/nextjs/wilmington-nextjs/.git/COMMIT_EDITMSG"
--'  1  0  ~/source/nextjs/wilmington-nextjs/.git/COMMIT_EDITMSG
-|4,39,1,0,1689360737,"~/source/nextjs/wilmington-nextjs/.git/COMMIT_EDITMSG"
--'  1  0  ~/source/nextjs/wilmington-nextjs/.git/COMMIT_EDITMSG
-|4,39,1,0,1689360737,"~/source/nextjs/wilmington-nextjs/.git/COMMIT_EDITMSG"
--'  1  0  ~/source/nextjs/wilmington-nextjs/.git/COMMIT_EDITMSG
-|4,39,1,0,1689360737,"~/source/nextjs/wilmington-nextjs/.git/COMMIT_EDITMSG"
--'  1  0  ~/source/nextjs/wilmington-nextjs/.git/COMMIT_EDITMSG
-|4,39,1,0,1689360737,"~/source/nextjs/wilmington-nextjs/.git/COMMIT_EDITMSG"
--'  1  0  ~/source/nextjs/wilmington-nextjs/.git/COMMIT_EDITMSG
-|4,39,1,0,1689360737,"~/source/nextjs/wilmington-nextjs/.git/COMMIT_EDITMSG"
--'  1  0  ~/source/nextjs/wilmington-nextjs/.git/COMMIT_EDITMSG
-|4,39,1,0,1689360737,"~/source/nextjs/wilmington-nextjs/.git/COMMIT_EDITMSG"
--'  1  0  ~/source/nextjs/wilmington-nextjs/.git/COMMIT_EDITMSG
-|4,39,1,0,1689360737,"~/source/nextjs/wilmington-nextjs/.git/COMMIT_EDITMSG"
--'  1  0  ~/source/nextjs/wilmington-nextjs/.git/COMMIT_EDITMSG
-|4,39,1,0,1689360737,"~/source/nextjs/wilmington-nextjs/.git/COMMIT_EDITMSG"
--'  1  0  ~/source/nextjs/wilmington-nextjs/.git/COMMIT_EDITMSG
-|4,39,1,0,1689360737,"~/source/nextjs/wilmington-nextjs/.git/COMMIT_EDITMSG"
--'  1  0  ~/source/nextjs/wilmington-nextjs/.git/COMMIT_EDITMSG
-|4,39,1,0,1689360737,"~/source/nextjs/wilmington-nextjs/.git/COMMIT_EDITMSG"
--'  1  0  ~/source/nextjs/wilmington-nextjs/.git/COMMIT_EDITMSG
-|4,39,1,0,1689360737,"~/source/nextjs/wilmington-nextjs/.git/COMMIT_EDITMSG"
--'  1  0  ~/source/nextjs/wilmington-nextjs/.git/COMMIT_EDITMSG
-|4,39,1,0,1689360737,"~/source/nextjs/wilmington-nextjs/.git/COMMIT_EDITMSG"
--'  1  0  ~/source/nextjs/wilmington-nextjs/.git/COMMIT_EDITMSG
-|4,39,1,0,1689360737,"~/source/nextjs/wilmington-nextjs/.git/COMMIT_EDITMSG"
--'  1  0  ~/source/nextjs/wilmington-nextjs/.git/MERGE_MSG
-|4,39,1,0,1689353819,"~/source/nextjs/wilmington-nextjs/.git/MERGE_MSG"
--'  1  0  ~/source/nextjs/wilmington-nextjs/.git/MERGE_MSG
-|4,39,1,0,1689353819,"~/source/nextjs/wilmington-nextjs/.git/MERGE_MSG"
--'  1  0  ~/source/nextjs/wilmington-nextjs/.git/MERGE_MSG
-|4,39,1,0,1689353819,"~/source/nextjs/wilmington-nextjs/.git/MERGE_MSG"
--'  1  0  ~/source/nextjs/wilmington-nextjs/.git/MERGE_MSG
-|4,39,1,0,1689353819,"~/source/nextjs/wilmington-nextjs/.git/MERGE_MSG"
--'  1  0  ~/source/nextjs/wilmington-nextjs/.git/MERGE_MSG
-|4,39,1,0,1689353819,"~/source/nextjs/wilmington-nextjs/.git/MERGE_MSG"
--'  1  0  ~/source/nextjs/wilmington-nextjs/.git/MERGE_MSG
-|4,39,1,0,1689353819,"~/source/nextjs/wilmington-nextjs/.git/MERGE_MSG"
--'  1  0  ~/source/nextjs/wilmington-nextjs/.git/MERGE_MSG
-|4,39,1,0,1689353819,"~/source/nextjs/wilmington-nextjs/.git/MERGE_MSG"
+-'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/MERGE_MSG
+|4,39,1,0,1705698595,"~/source/payloadcms/appily/advance.appily.com/.git/MERGE_MSG"
+-'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/MERGE_MSG
+|4,39,1,0,1705505585,"~/source/payloadcms/appily/advance.appily.com/.git/MERGE_MSG"
+-'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/MERGE_MSG
+|4,39,1,0,1705505574,"~/source/payloadcms/appily/advance.appily.com/.git/MERGE_MSG"
+-'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/MERGE_MSG
+|4,39,1,0,1704745182,"~/source/payloadcms/appily/advance.appily.com/.git/MERGE_MSG"
+-'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/MERGE_MSG
+|4,39,1,0,1704739150,"~/source/payloadcms/appily/advance.appily.com/.git/MERGE_MSG"
+-'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/MERGE_MSG
+|4,39,1,0,1702507495,"~/source/payloadcms/appily/advance.appily.com/.git/MERGE_MSG"
+-'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG
+|4,39,1,0,1701701173,"~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG"
+-'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG
+|4,39,1,0,1701701173,"~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG"
+-'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG
+|4,39,1,0,1701701173,"~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG"
+-'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG
+|4,39,1,0,1701701173,"~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG"
+-'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG
+|4,39,1,0,1701701173,"~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG"
+-'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG
+|4,39,1,0,1701701173,"~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG"
+-'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG
+|4,39,1,0,1701701173,"~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG"
+-'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG
+|4,39,1,0,1701701173,"~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG"
+-'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG
+|4,39,1,0,1701701173,"~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG"
+-'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG
+|4,39,1,0,1701701173,"~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG"
+-'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG
+|4,39,1,0,1701701173,"~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG"
+-'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG
+|4,39,1,0,1701701173,"~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG"
+-'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG
+|4,39,1,0,1701701173,"~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG"
+-'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG
+|4,39,1,0,1701701173,"~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG"
+-'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG
+|4,39,1,0,1701701173,"~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG"
+-'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG
+|4,39,1,0,1701701173,"~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG"
+-'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG
+|4,39,1,0,1701701173,"~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG"
+-'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG
+|4,39,1,0,1701701173,"~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG"
+-'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG
+|4,39,1,0,1701701173,"~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG"
+-'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG
+|4,39,1,0,1701701173,"~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG"
+-'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG
+|4,39,1,0,1701701173,"~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG"
+-'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG
+|4,39,1,0,1701701173,"~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG"
+-'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG
+|4,39,1,0,1701701173,"~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG"
+-'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG
+|4,39,1,0,1701701173,"~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG"
+-'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG
+|4,39,1,0,1701701173,"~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG"
+-'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG
+|4,39,1,0,1701701173,"~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG"
+-'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG
+|4,39,1,0,1701701173,"~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG"
+-'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG
+|4,39,1,0,1701701173,"~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG"
+-'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG
+|4,39,1,0,1701701173,"~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG"
+-'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG
+|4,39,1,0,1701701173,"~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG"
+-'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG
+|4,39,1,0,1701701173,"~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG"
+-'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG
+|4,39,1,0,1701701173,"~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG"
+-'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG
+|4,39,1,0,1701701173,"~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG"
+-'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG
+|4,39,1,0,1701701173,"~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG"
+-'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG
+|4,39,1,0,1701701173,"~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG"
+-'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG
+|4,39,1,0,1701701173,"~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG"
+-'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG
+|4,39,1,0,1701701173,"~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG"
+-'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG
+|4,39,1,0,1701701173,"~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG"
+-'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG
+|4,39,1,0,1701701173,"~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG"
+-'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG
+|4,39,1,0,1701701173,"~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG"
+-'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG
+|4,39,1,0,1701701173,"~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG"
+-'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG
+|4,39,1,0,1701701173,"~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG"
+-'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG
+|4,39,1,0,1701701173,"~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG"
+-'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG
+|4,39,1,0,1701701173,"~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG"
+-'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG
+|4,39,1,0,1701701173,"~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG"
+-'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG
+|4,39,1,0,1701701173,"~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG"
+-'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG
+|4,39,1,0,1701701173,"~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG"
+-'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG
+|4,39,1,0,1701701173,"~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG"
+-'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG
+|4,39,1,0,1701701173,"~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG"
+-'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG
+|4,39,1,0,1701701173,"~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG"
+-'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG
+|4,39,1,0,1701701173,"~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG"
+-'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG
+|4,39,1,0,1701701173,"~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG"
+-'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG
+|4,39,1,0,1701701173,"~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG"
+-'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG
+|4,39,1,0,1701701173,"~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG"
+-'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG
+|4,39,1,0,1701701173,"~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG"
+-'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG
+|4,39,1,0,1701701173,"~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG"
+-'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG
+|4,39,1,0,1701701173,"~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG"
+-'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG
+|4,39,1,0,1701701173,"~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG"
+-'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG
+|4,39,1,0,1701701173,"~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG"
+-'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG
+|4,39,1,0,1701701173,"~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG"
+-'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG
+|4,39,1,0,1701701173,"~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG"
+-'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG
+|4,39,1,0,1701701173,"~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG"
+-'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG
+|4,39,1,0,1701701173,"~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG"
+-'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG
+|4,39,1,0,1701701173,"~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG"
+-'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG
+|4,39,1,0,1701473598,"~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG"
+-'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG
+|4,39,1,0,1701473598,"~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG"
+-'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG
+|4,39,1,0,1701473598,"~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG"
+-'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG
+|4,39,1,0,1701473598,"~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG"
+-'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG
+|4,39,1,0,1701473598,"~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG"
+-'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG
+|4,39,1,0,1701473598,"~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG"
+-'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG
+|4,39,1,0,1701473598,"~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG"
+-'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG
+|4,39,1,0,1701473598,"~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG"
+-'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG
+|4,39,1,0,1701473598,"~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG"
+-'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG
+|4,39,1,0,1701473598,"~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG"
+-'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG
+|4,39,1,0,1701473598,"~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG"
+-'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG
+|4,39,1,0,1701473598,"~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG"
+-'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG
+|4,39,1,0,1701473598,"~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG"
+-'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG
+|4,39,1,0,1701473598,"~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG"
+-'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG
+|4,39,1,0,1701473598,"~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG"
+-'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG
+|4,39,1,0,1701473598,"~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG"
+-'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG
+|4,39,1,0,1701473598,"~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG"
+-'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG
+|4,39,1,0,1701473598,"~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG"
+-'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG
+|4,39,1,0,1701473598,"~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG"
+-'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG
+|4,39,1,0,1701473598,"~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG"
+-'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG
+|4,39,1,0,1701473598,"~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG"
+-'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG
+|4,39,1,0,1701473598,"~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG"
+-'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG
+|4,39,1,0,1701473598,"~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG"
+-'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG
+|4,39,1,0,1701473598,"~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG"
+-'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG
+|4,39,1,0,1701473598,"~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG"
+-'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG
+|4,39,1,0,1701473598,"~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG"
+-'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG
+|4,39,1,0,1701473598,"~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG"
+-'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG
+|4,39,1,0,1701473598,"~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG"
+-'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG
+|4,39,1,0,1701473598,"~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG"
+-'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG
+|4,39,1,0,1701473598,"~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG"
 
 # History of marks within files (newest to oldest):
 
+> ~/source/payloadcms/appily/advance.appily.com/.git/MERGE_MSG
+	*	1705698594	0
+	"	1	0
+
+> ~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG
+	*	1701701172	0
+	"	1	0
+	^	1	16
+	.	1	15
+	+	1	15
+
+> ~/source/react-learning/epicweb-dev/full-stack-foundations/playground/app/routes/users+/kody_+/notes.index.tsx
+	*	1697751389	0
+	"	8	0
+	^	8	0
+	.	7	1
+	+	7	1
+
+> ~/source/react-learning/epicweb-dev/full-stack-foundations/playground/app/routes/users+/kody_+/notes.some-note-id.tsx
+	*	1697751069	0
+	"	8	0
+	^	8	0
+	.	7	1
+	+	7	1
+
+> ~/source/react-learning/epicweb-dev/full-stack-foundations/playground/app/routes/users+/kody_+/notes.tsx
+	*	1697750973	0
+	"	8	0
+	^	8	0
+	.	8	0
+	+	8	0
+
+> ~/source/react-learning/epicweb-dev/full-stack-foundations/exercises/01.styling/05.solution.bundling-css/app/root.tsx
+	*	1697748630	0
+	"	33	0
+
+> ~/source/react-learning/epicweb-dev/full-stack-foundations/playground/app/styles/tailwind.css
+	*	1697747056	0
+	"	3	19
+	^	3	20
+	.	3	19
+	+	3	19
+
+> ~/source/react-learning/epicweb-dev/full-stack-foundations/playground/tailwind.config.ts
+	*	1697746968	0
+	"	17	17
+	^	17	18
+	.	17	17
+	+	1	41
+	+	2	49
+	+	18	0
+	+	17	17
+
+> ~/source/react-learning/epicweb-dev/full-stack-foundations/playground/postcss.config.js
+	*	1697746779	0
+	"	7	0
+	^	7	1
+	.	7	0
+	+	1	0
+	+	1	16
+	+	7	0
+
+> ~/source/react-learning/epicweb-dev/full-stack-foundations/playground/app/root.tsx
+	*	1697677878	0
+	"	23	1
+
+> ~/source/react-learning/epicweb-dev/full-stack-foundations/exercises/01.styling/01.solution.public-links/app/root.tsx
+	*	1697677808	0
+	"	23	0
+
+> ~/source/react-learning/epicweb-dev/full-stack-foundations/playground/public/favicon.svg
+	*	1697675996	0
+	"	13	5
+
+> ~/source/ALR/test-quiz-alr-health-sciences-nexjs/.git/MERGE_MSG
+	*	1695394510	0
+	"	1	0
+
 > ~/source/nextjs/wilmington-nextjs/.git/MERGE_MSG
-	*	1691766683	0
+	*	1695160217	0
+	"	1	0
+
+> ~/source/Wordpress/temp/wilmington-college/.git/COMMIT_EDITMSG
+	*	1692812234	0
+	"	1	0
+
+> ~/.cfg/COMMIT_EDITMSG
+	*	1692212903	0
 	"	1	0
 
 > ~/source/contentful/morgan-state/.git/COMMIT_EDITMSG
@@ -459,14 +549,6 @@ $
 	^	1	21
 	.	1	20
 	+	1	20
-
-> ~/source/Wordpress/temp/wilmington-college/.git/COMMIT_EDITMSG
-	*	1689217719	0
-	"	1	0
-
-> ~/source/ALR/test-quiz-alr-health-sciences-nexjs/.git/MERGE_MSG
-	*	1684357450	0
-	"	1	0
 
 > /private/etc/hosts
 	*	1680662810	0
@@ -1084,86 +1166,3 @@ $
 > ~/source/gatsby/master-gatsby/starter-files/gatsby/src/pages/index.js
 	*	1638572003	0
 	"	7	24
-
-> ~/.netlify/config.json
-	*	1636739613	0
-	"	1	0
-
-> ~/source/contentful/morgan-state/.gitignore
-	*	1632504451	0
-	"	9	11
-	^	9	12
-	.	9	11
-	+	9	11
-
-> ~/source/gatsby/Denver-Paid_Search/.git/MERGE_MSG
-	*	1632171587	0
-	"	1	0
-
-> ~/source/misc/Sitemap-Generator-Crawler/sitemap.config.php
-	*	1631566063	0
-	"	1	0
-	^	27	29
-	.	27	28
-	+	27	28
-
-> ~/source/misc/grad.tamu.edu-sitemap/gradscan.js
-	*	1631221082	0
-	"	1	0
-	^	4	55
-	.	4	54
-	+	14	17
-	+	5	0
-	+	4	54
-
-> ~/source/misc/Sitemap-Generator-Crawler/sitemap.php
-	*	1631220975	0
-	"	1	0
-
-> ~/.profile
-	*	1630605888	0
-	"	1	15
-	.	2	0
-	+	1	34
-	+	2	0
-
-> ~/source/misc/alfa-webaccessibility/package.json
-	*	1630601675	0
-	"	9	42
-	^	9	43
-	.	9	42
-	+	10	0
-	+	9	42
-
-> ~/source/misc/alfa-webaccessibility/.npmrc
-	*	1630600901	0
-	"	1	59
-	^	1	60
-	.	1	59
-	+	1	59
-
-> ~/.oh-my-zsh-custom/zshrc-custom.zsh
-	*	1630518562	0
-	"	46	0
-	.	14	0
-	+	14	0
-
-> ~/source/cascade-8.18/tomcat/conf/context.xml
-	*	1629830884	0
-	"	1	0
-	.	1	0
-	+	1	0
-
-> ~/source/cascade-8.18/cascade.sh
-	*	1629830855	0
-	"	5	27
-	^	5	28
-	.	5	27
-	+	1	77
-	+	5	20
-	+	5	27
-	x	4	0
-
-> ~/source/gatsby/sitemap-base/.cache/app.js
-	*	1629774154	0
-	"	187	1

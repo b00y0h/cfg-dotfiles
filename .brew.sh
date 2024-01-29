@@ -25,6 +25,9 @@ brew install libvpx
 brew install trash
 brew install tree
 
+# https://fig.io/
+brew install fig
+
 # install stuff from mac app store
 brew install mas
 
