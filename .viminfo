@@ -21,7 +21,7 @@ $
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1705698595,,"wq"
+|2,0,1707416173,,"wq"
 :qa
 |2,0,1697748635,,"qa"
 :q
@@ -220,38 +220,80 @@ $
 # File marks:
 'M  1125  18  ~/source/WebDev/nsu-iwc-layouts/package-lock.json
 |4,77,1125,18,1599765137,"~/source/WebDev/nsu-iwc-layouts/package-lock.json"
-'0  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/MERGE_MSG
-|4,48,1,0,1705698595,"~/source/payloadcms/appily/advance.appily.com/.git/MERGE_MSG"
-'1  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/MERGE_MSG
-|4,49,1,0,1705505585,"~/source/payloadcms/appily/advance.appily.com/.git/MERGE_MSG"
+'0  1  0  ~/source/gitlab/appily-advance/advance.appily.com/.git/MERGE_MSG
+|4,48,1,0,1707416173,"~/source/gitlab/appily-advance/advance.appily.com/.git/MERGE_MSG"
+'1  1  0  ~/source/eab-agency/wilmington-nextjs/.git/MERGE_MSG
+|4,49,1,0,1707160436,"~/source/eab-agency/wilmington-nextjs/.git/MERGE_MSG"
 '2  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/MERGE_MSG
-|4,50,1,0,1705505574,"~/source/payloadcms/appily/advance.appily.com/.git/MERGE_MSG"
+|4,50,1,0,1705698595,"~/source/payloadcms/appily/advance.appily.com/.git/MERGE_MSG"
 '3  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/MERGE_MSG
-|4,51,1,0,1705505574,"~/source/payloadcms/appily/advance.appily.com/.git/MERGE_MSG"
+|4,51,1,0,1705505585,"~/source/payloadcms/appily/advance.appily.com/.git/MERGE_MSG"
 '4  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/MERGE_MSG
-|4,52,1,0,1704745182,"~/source/payloadcms/appily/advance.appily.com/.git/MERGE_MSG"
+|4,52,1,0,1705505574,"~/source/payloadcms/appily/advance.appily.com/.git/MERGE_MSG"
 '5  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/MERGE_MSG
-|4,53,1,0,1704745182,"~/source/payloadcms/appily/advance.appily.com/.git/MERGE_MSG"
+|4,53,1,0,1705505574,"~/source/payloadcms/appily/advance.appily.com/.git/MERGE_MSG"
 '6  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/MERGE_MSG
 |4,54,1,0,1704745182,"~/source/payloadcms/appily/advance.appily.com/.git/MERGE_MSG"
 '7  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/MERGE_MSG
 |4,55,1,0,1704745182,"~/source/payloadcms/appily/advance.appily.com/.git/MERGE_MSG"
 '8  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/MERGE_MSG
-|4,56,1,0,1704739150,"~/source/payloadcms/appily/advance.appily.com/.git/MERGE_MSG"
+|4,56,1,0,1704745182,"~/source/payloadcms/appily/advance.appily.com/.git/MERGE_MSG"
 '9  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/MERGE_MSG
-|4,57,1,0,1704739150,"~/source/payloadcms/appily/advance.appily.com/.git/MERGE_MSG"
+|4,57,1,0,1704745182,"~/source/payloadcms/appily/advance.appily.com/.git/MERGE_MSG"
 
 # Jumplist (newest first):
+-'  1  0  ~/source/gitlab/appily-advance/advance.appily.com/.git/MERGE_MSG
+|4,39,1,0,1707416173,"~/source/gitlab/appily-advance/advance.appily.com/.git/MERGE_MSG"
+-'  1  0  ~/source/eab-agency/wilmington-nextjs/.git/MERGE_MSG
+|4,39,1,0,1707160436,"~/source/eab-agency/wilmington-nextjs/.git/MERGE_MSG"
+-'  1  0  ~/source/eab-agency/wilmington-nextjs/.git/MERGE_MSG
+|4,39,1,0,1707160436,"~/source/eab-agency/wilmington-nextjs/.git/MERGE_MSG"
+-'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/MERGE_MSG
+|4,39,1,0,1705698595,"~/source/payloadcms/appily/advance.appily.com/.git/MERGE_MSG"
+-'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/MERGE_MSG
+|4,39,1,0,1705698595,"~/source/payloadcms/appily/advance.appily.com/.git/MERGE_MSG"
+-'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/MERGE_MSG
+|4,39,1,0,1705698595,"~/source/payloadcms/appily/advance.appily.com/.git/MERGE_MSG"
 -'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/MERGE_MSG
 |4,39,1,0,1705698595,"~/source/payloadcms/appily/advance.appily.com/.git/MERGE_MSG"
 -'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/MERGE_MSG
 |4,39,1,0,1705505585,"~/source/payloadcms/appily/advance.appily.com/.git/MERGE_MSG"
 -'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/MERGE_MSG
+|4,39,1,0,1705505585,"~/source/payloadcms/appily/advance.appily.com/.git/MERGE_MSG"
+-'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/MERGE_MSG
+|4,39,1,0,1705505585,"~/source/payloadcms/appily/advance.appily.com/.git/MERGE_MSG"
+-'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/MERGE_MSG
+|4,39,1,0,1705505585,"~/source/payloadcms/appily/advance.appily.com/.git/MERGE_MSG"
+-'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/MERGE_MSG
+|4,39,1,0,1705505574,"~/source/payloadcms/appily/advance.appily.com/.git/MERGE_MSG"
+-'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/MERGE_MSG
+|4,39,1,0,1705505574,"~/source/payloadcms/appily/advance.appily.com/.git/MERGE_MSG"
+-'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/MERGE_MSG
+|4,39,1,0,1705505574,"~/source/payloadcms/appily/advance.appily.com/.git/MERGE_MSG"
+-'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/MERGE_MSG
 |4,39,1,0,1705505574,"~/source/payloadcms/appily/advance.appily.com/.git/MERGE_MSG"
 -'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/MERGE_MSG
 |4,39,1,0,1704745182,"~/source/payloadcms/appily/advance.appily.com/.git/MERGE_MSG"
 -'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/MERGE_MSG
+|4,39,1,0,1704745182,"~/source/payloadcms/appily/advance.appily.com/.git/MERGE_MSG"
+-'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/MERGE_MSG
+|4,39,1,0,1704745182,"~/source/payloadcms/appily/advance.appily.com/.git/MERGE_MSG"
+-'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/MERGE_MSG
+|4,39,1,0,1704745182,"~/source/payloadcms/appily/advance.appily.com/.git/MERGE_MSG"
+-'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/MERGE_MSG
 |4,39,1,0,1704739150,"~/source/payloadcms/appily/advance.appily.com/.git/MERGE_MSG"
+-'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/MERGE_MSG
+|4,39,1,0,1704739150,"~/source/payloadcms/appily/advance.appily.com/.git/MERGE_MSG"
+-'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/MERGE_MSG
+|4,39,1,0,1704739150,"~/source/payloadcms/appily/advance.appily.com/.git/MERGE_MSG"
+-'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/MERGE_MSG
+|4,39,1,0,1704739150,"~/source/payloadcms/appily/advance.appily.com/.git/MERGE_MSG"
+-'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/MERGE_MSG
+|4,39,1,0,1702507495,"~/source/payloadcms/appily/advance.appily.com/.git/MERGE_MSG"
+-'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/MERGE_MSG
+|4,39,1,0,1702507495,"~/source/payloadcms/appily/advance.appily.com/.git/MERGE_MSG"
+-'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/MERGE_MSG
+|4,39,1,0,1702507495,"~/source/payloadcms/appily/advance.appily.com/.git/MERGE_MSG"
 -'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/MERGE_MSG
 |4,39,1,0,1702507495,"~/source/payloadcms/appily/advance.appily.com/.git/MERGE_MSG"
 -'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG
@@ -383,67 +425,33 @@ $
 -'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG
 |4,39,1,0,1701701173,"~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG"
 -'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG
-|4,39,1,0,1701473598,"~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG"
+|4,39,1,0,1701701173,"~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG"
 -'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG
-|4,39,1,0,1701473598,"~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG"
+|4,39,1,0,1701701173,"~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG"
 -'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG
-|4,39,1,0,1701473598,"~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG"
+|4,39,1,0,1701701173,"~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG"
 -'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG
-|4,39,1,0,1701473598,"~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG"
+|4,39,1,0,1701701173,"~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG"
 -'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG
-|4,39,1,0,1701473598,"~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG"
+|4,39,1,0,1701701173,"~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG"
 -'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG
-|4,39,1,0,1701473598,"~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG"
+|4,39,1,0,1701701173,"~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG"
 -'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG
-|4,39,1,0,1701473598,"~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG"
+|4,39,1,0,1701701173,"~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG"
 -'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG
-|4,39,1,0,1701473598,"~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG"
+|4,39,1,0,1701701173,"~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG"
 -'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG
-|4,39,1,0,1701473598,"~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG"
--'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG
-|4,39,1,0,1701473598,"~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG"
--'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG
-|4,39,1,0,1701473598,"~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG"
--'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG
-|4,39,1,0,1701473598,"~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG"
--'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG
-|4,39,1,0,1701473598,"~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG"
--'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG
-|4,39,1,0,1701473598,"~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG"
--'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG
-|4,39,1,0,1701473598,"~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG"
--'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG
-|4,39,1,0,1701473598,"~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG"
--'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG
-|4,39,1,0,1701473598,"~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG"
--'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG
-|4,39,1,0,1701473598,"~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG"
--'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG
-|4,39,1,0,1701473598,"~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG"
--'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG
-|4,39,1,0,1701473598,"~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG"
--'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG
-|4,39,1,0,1701473598,"~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG"
--'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG
-|4,39,1,0,1701473598,"~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG"
--'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG
-|4,39,1,0,1701473598,"~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG"
--'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG
-|4,39,1,0,1701473598,"~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG"
--'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG
-|4,39,1,0,1701473598,"~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG"
--'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG
-|4,39,1,0,1701473598,"~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG"
--'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG
-|4,39,1,0,1701473598,"~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG"
--'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG
-|4,39,1,0,1701473598,"~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG"
--'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG
-|4,39,1,0,1701473598,"~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG"
--'  1  0  ~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG
-|4,39,1,0,1701473598,"~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG"
+|4,39,1,0,1701701173,"~/source/payloadcms/appily/advance.appily.com/.git/COMMIT_EDITMSG"
 
 # History of marks within files (newest to oldest):
+
+> ~/source/gitlab/appily-advance/advance.appily.com/.git/MERGE_MSG
+	*	1707416172	0
+	"	1	0
+
+> ~/source/eab-agency/wilmington-nextjs/.git/MERGE_MSG
+	*	1707160435	0
+	"	1	0
 
 > ~/source/payloadcms/appily/advance.appily.com/.git/MERGE_MSG
 	*	1705698594	0
@@ -1158,11 +1166,3 @@ $
 > ~/source/gatsby/central-michigan-paid-search/.git/MERGE_MSG
 	*	1645637583	0
 	"	1	0
-
-> ~/source/gatsby/central-michigan-paid-search/.git/config
-	*	1639059003	0
-	"	1	0
-
-> ~/source/gatsby/master-gatsby/starter-files/gatsby/src/pages/index.js
-	*	1638572003	0
-	"	7	24

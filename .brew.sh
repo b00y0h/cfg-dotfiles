@@ -24,6 +24,7 @@ brew install youtube-dl
 brew install libvpx
 brew install trash
 brew install tree
+brew install ffmpeg
 
 # https://fig.io/
 brew install fig
