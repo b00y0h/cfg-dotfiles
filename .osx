@@ -779,7 +779,8 @@ defaults delete -g ApplePressAndHoldEnabled                                     
 ###############################################################################
 
 # brew install mas needs to be run (it's in .brew.sh)
-mas install 441258766 #magnet
+# mas install 441258766 #magnet
+# don't need magnet anymore bc raycast does the same
 brew install --cask raycast
 # mas install 1081413713 #gifbrewery
 
