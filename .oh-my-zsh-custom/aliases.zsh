@@ -10,8 +10,7 @@ alias gstat='git status -s'
 # ignore *-lock files on git diff
 alias gd="git diff -- ':!package-lock.json' ':!yarn.lock'"
 # install trash, (either from the macports or by the brew.)
-alias trash="rmtrash"
-alias del="rmtrash"       # del / trash are shorter than trash
+alias del="trash"       # del / trash are shorter than trash
 
 alias rm="echo Use 'del', or the full path i.e. '/bin/rm'"
 
@@ -47,9 +46,6 @@ function ffmpeg-sidebyside() {
     echo "$leftfilename"
     echo "$rightfilename"
     /usr/local/bin/ffmpeg -i "$1" -i "$2" -filter_complex "[0:v:0]pad=iw*2:ih[bg]; [bg][1:v:0]overlay=w[combined]; [combined]scale=1024:-2" "out/combined$leftfilename-$rightfilename.mp4" &&
-    /usr/local/bin/rmtrash "$1"
-    /usr/local/bin/rmtrash "$2"
-    
 }
 
 fancy-ctrl-z () {

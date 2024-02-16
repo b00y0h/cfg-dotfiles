@@ -113,17 +113,6 @@ export NVM_DIR="$HOME/.nvm"
 export PATH="$PATH:$HOME/.rvm/bin"
 export PATH="$HOME/.gem/ruby/2.7.0/bin:$PATH"
 
-# The next line updates PATH for the Google Cloud SDK.
-if [ -f '/Users/bobbysmith/Downloads/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/bobbysmith/Downloads/google-cloud-sdk/path.zsh.inc'; fi
-
-# The next line enables shell command completion for gcloud.
-if [ -f '/Users/bobbysmith/Downloads/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/bobbysmith/Downloads/google-cloud-sdk/completion.zsh.inc'; fi
-
-# BEGIN SNIPPET: Platform.sh CLI configuration
-HOME=${HOME:-'/Users/bobbysmith'}
-export PATH="$HOME/"'.platformsh/bin':"$PATH"
-if [ -f "$HOME/"'.platformsh/shell-config.rc' ]; then . "$HOME/"'.platformsh/shell-config.rc'; fi # END SNIPPET
-
 # export netlify token for interacting with command line to netlify
 export NETLIFY_TOKEN=ntMMeVumGmmOMDhBL4M2Vm2GBG1YqdCKp6scYjs7hpM 
 
