@@ -41,6 +41,7 @@ brew install --cask visual-studio-code
 brew install --cask hyper
 brew install --cask brave-browser
 brew install --cask git-credential-manager
+brew install --cask raycast
 
 # Remove outdated versions from the cellar
 brew cleanup
