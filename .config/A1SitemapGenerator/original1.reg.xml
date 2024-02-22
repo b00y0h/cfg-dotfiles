@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<XMLReg>
+  <Key Name="HKEY_CURRENT_USER">
+    <Key Name="Software">
+      <Key Name="Microsys">
+        <Key Name="SitemapGenerator10">
+          <Key Name="TrialInfo">
+            <Value Name="Start" Type="3">02A7EECD5A0D80CD</Value>
+            <Value Name="Version" Type="2">10.1.4</Value>
+          </Key>
+        </Key>
+      </Key>
+    </Key>
+  </Key>
+</XMLReg>

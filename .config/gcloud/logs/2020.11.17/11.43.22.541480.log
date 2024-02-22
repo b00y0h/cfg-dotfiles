@@ -1,0 +1,6 @@
+2020-11-17 11:43:22,543 DEBUG    root            Loaded Command Group: ['gcloud', 'config']
+2020-11-17 11:43:22,554 DEBUG    root            Loaded Command Group: ['gcloud', 'config', 'set']
+2020-11-17 11:43:22,556 DEBUG    root            Running [gcloud.config.set] with arguments: [SECTION/PROPERTY: "project", VALUE: "lighthouse-audit-tool"]
+2020-11-17 11:43:22,557 INFO     ___FILE_ONLY___ Updated property [core/project].
+
+2020-11-17 11:43:23,236 INFO     root            Display format: "default"
