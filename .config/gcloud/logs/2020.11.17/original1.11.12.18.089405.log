@@ -1,6 +1,0 @@
-2020-11-17 11:12:18,091 DEBUG    root            Loaded Command Group: ['gcloud', 'config']
-2020-11-17 11:12:18,097 DEBUG    root            Loaded Command Group: ['gcloud', 'config', 'get_value']
-2020-11-17 11:12:18,098 DEBUG    root            Running [gcloud.config.get-value] with arguments: [SECTION/PROPERTY: "compute/region"]
-2020-11-17 11:12:18,099 INFO     ___FILE_ONLY___ (unset)
-
-2020-11-17 11:12:18,101 INFO     root            Display format: "value(.)"
