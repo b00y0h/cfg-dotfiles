@@ -6,3 +6,4 @@
 nohup.out
 */.DS_Store
 .oh-my-zsh-custom/proxies.zsh
+.config/*
