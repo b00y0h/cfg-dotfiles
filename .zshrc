@@ -124,11 +124,6 @@ if [[ -f "$HOME/.aliases" ]]; then
 fi
 
 
-# export netlify token for interacting with command line to netlify
-export NETLIFY_TOKEN=ntMMeVumGmmOMDhBL4M2Vm2GBG1YqdCKp6scYjs7hpM 
-
-export GWPT_AUTH_TOKEN=ts6LKbmmTDUz8NHl
-
 eval "$(starship init zsh)"
 
 if command -v pyenv 1>/dev/null 2>&1; then
